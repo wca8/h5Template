@@ -1,0 +1,15 @@
+*{padding: 0;margin: 0;list-style: none;}
+img{width: 100%;}
+#app{height: 100vh;overflow: hidden;}
+#app_box{position: relative;}
+#app_box>div{position: relative;overflow: hidden;}
+
+
+/* 以下代码需注释掉 */
+#app_box>div:nth-of-type(odd){
+	background-color: aquamarine;
+}
+#app_box>div:nth-of-type(even){
+	background-color: darksalmon;
+}
+
